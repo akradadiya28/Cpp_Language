@@ -5,4 +5,5 @@ int main() {
 	std::cin >> birthYear;
 	int age = 2018 - birthYear;
 	std::cout << "Your age is: " << age;
+	std::cout << "Your class is Th-4" ;
 }
