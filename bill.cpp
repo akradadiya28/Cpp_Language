@@ -1,13 +1,19 @@
 #include <iostream>
 using namespace std;
 
-// WAP to find total bill by adding % of GST of user choice.
-
 int main()
 {
+    double price, gst, total;
 
-    int a = 5000;
-    float
+    cout << "Enter the price of the item: ";
+    cin >> price;
 
-        return 0;
+    cout << "Enter the GST rate in percentage: ";
+    cin >> gst;
+
+    total = price + (price * gst / 100);
+
+    cout << "The total bill is: " << total << endl;
+
+    return 0;
 }
