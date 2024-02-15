@@ -6,7 +6,7 @@ int main()
 {
     // const int a = 5; //constant
 
-    cout << "value of a is " << a << endl;
+    cout << "value of a is " << A << endl;
 
     return 0;
 }
