@@ -1,12 +1,10 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-/*
-    Unary Operator
-*/
-int main(){
+int main()
+{
 
-    int a = 16 * 8 / 4 - 32 + 8 / 4;
+    int a = 10 % 3;
 
     cout << a << endl;
 

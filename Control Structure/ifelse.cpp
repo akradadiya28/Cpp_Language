@@ -14,14 +14,14 @@ int main()
     cout << "enter the value of b: ";
     cin >> b;
 
-    if(a > b)
+    if (a > b)
     {
         cout << "a is max..." << endl;
     }
     else
     {
-        cout << "b is max..." << endl; 
+        cout << "b is max..." << endl;
     }
 
-    return 0; 
+    return 0;
 }
