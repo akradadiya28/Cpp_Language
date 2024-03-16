@@ -2,20 +2,15 @@
 using namespace std;
 int main()
 {
-    // int a[5] = {6, 8, 4, 3, 5};
-    int a[5];
     int i;
+    int a[i];
 
-    for (i = 0; i < 5; i++)
-    {
-        cout << "enter array elemnet: ";
-        cin >> a[i];
-    }
-    cout << "array elemnets: " << endl;
-    for (i = 0; i < 5; i++)
-    {
-        cout << a[i] << endl;
-    }
+    cout << "Enter the Array: " << endl;
+    cin >> a[i];
+
+    (i % 2 == 1)
+        ? cout << "this is odd number"
+        : cout << "this is even number";
 
     return 0;
 }
